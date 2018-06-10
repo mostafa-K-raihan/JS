@@ -3,18 +3,24 @@ body{
 }
 .playing {
     transform: scale(1.5);
-    border-color: #ffc600;
-    box-shadow: 0 0 5px #ffc600;
+    border-color: #05f040;
+    box-shadow: 0 0 50px #ff1100;
 }
+html{
+    font-size: 10px;
+    background-size: cover;
+    background: url("https://images.unsplash.com/photo-1457523054379-8d03ab9fc2aa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8771f6d4bd8b5ac37feb9e824efd7109&auto=format&fit=crop&w=750&q=80") bottom center;
+    
+}
+
 .key {
     width: 10rem;
     color: white;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(23, 57, 207, 0.87);
     font-size: 1.5rem;
     margin: 1rem;
-    border: .4rem solid black;
+    border: .4rem solid rgb(75, 6, 6);
     border-radius: .5rem;
-    text-shadow: 0 0 .5rem black;
     text-align: center;
     padding: 1rem .5rem;
     transition: all 0.07s ease-in;
@@ -35,5 +41,5 @@ kbd {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #ffc600;
+    color: #d9fa44;
 }
