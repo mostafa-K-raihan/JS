@@ -1,7 +1,7 @@
 window.addEventListener('keydown', (e) => {
-    
-    const audio = document.querySelector(`audio[data-key="${e.key}"]`);
-    const key = document.querySelector(`.key[data-key=${e.key}]`);
+    const char = e.key.toUpperCase();
+    const audio = document.querySelector(`audio[data-key="${char}"]`);
+    const key = document.querySelector(`.key[data-key=${char}]`);
     
     if(!audio) return;
     audio.currentTime = 0;
