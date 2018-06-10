@@ -7,21 +7,33 @@ body{
     box-shadow: 0 0 5px #ffc600;
 }
 .key {
-    transition: all 0.07s;
-    border: 4px solid black;
-    width: 80px;
-    height: 80px;
+    width: 10rem;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 1.5rem;
+    margin: 1rem;
+    border: .4rem solid black;
+    border-radius: .5rem;
+    text-shadow: 0 0 .5rem black;
     text-align: center;
-    margin: 20px;
-    display: inline-block;
+    padding: 1rem .5rem;
+    transition: all 0.07s ease-in;
 }
 #wrapper {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+
 }
 kbd {
     font-size: 65px;
     margin: auto;
 
+}
+.sound{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
 }
